@@ -9,6 +9,6 @@ return count
 end
 
 
-def 
+def current_player
   board.each do |space|
     if(space=="X"||space=="O")
