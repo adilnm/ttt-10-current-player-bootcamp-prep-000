@@ -14,7 +14,7 @@ def current_player
     if(board[space]%2==0)
       return "X"
     else
-      return "X"
+      return "O"
     end
   end
 end
