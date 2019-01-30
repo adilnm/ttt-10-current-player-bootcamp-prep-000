@@ -14,7 +14,7 @@ def current_player
     if(space%2==0)
       return "X"
     else
-      return "Y"
+      return "O"
     end
   end
 end
