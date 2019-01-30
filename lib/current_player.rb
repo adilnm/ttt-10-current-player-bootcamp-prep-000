@@ -10,3 +10,5 @@ end
 
 
 def 
+  board.each do |space|
+    if(space=="X"||space=="O")
