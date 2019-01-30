@@ -10,6 +10,7 @@ end
 
 
 def current_player
+  number=turn_count(board)
   board.each do |space|
     if(board[space]%2==0)
       return "X"
