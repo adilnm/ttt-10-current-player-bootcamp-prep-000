@@ -11,4 +11,5 @@ end
 
 def current_player
   board.each do |space|
-    if(space=="X"||space=="O")
+    if(space%2==0)
+      return "X"
