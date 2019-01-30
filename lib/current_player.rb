@@ -9,7 +9,7 @@ return count
 end
 
 
-def current_player
+def current_player(board)
   number=turn_count(board)
 
     if(number%2==0)
