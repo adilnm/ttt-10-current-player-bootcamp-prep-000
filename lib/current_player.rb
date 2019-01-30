@@ -12,7 +12,7 @@ end
 def current_player
   board.each do |space|
     if(space%2==0)
-      return "O"
+      return "X"
     else
       return "X"
     end
